@@ -11,26 +11,25 @@
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <body>
-    <header id="welcome" class="space">
-            <img src="/media/mariam.jpg">
-    
-            <div id="inform">
-              <h1>AFOLABI, Opeyemi Mariam</h1>
-              <h3>Front-end Web Developer</h3>
-            </div>
-    </header>
-    <nav id="nav-bar">
-        <!-- <nav id="nav-bar">
-                <a href="index.html"> HOME</a>
-                <a href="about.html"> ABOUT</a>
-                <a href="contact.html"> CONTACT</a>
-                <a href="project.html"> PROJECTS</a>
-        </nav> -->
-      <a href="#welcome"> HOME</a>
-      <a href="#about"> ABOUT</a>
-      <a href="#contact"> CONTACT</a>
-      <a href="#project"> PROJECTS</a>
+    <div class="topnav">
+      <a href="#welcome" class="active">Logo</a>
+      <nav id="nav-bar">
+        <a href="#welcome"> HOME</a>
+        <a href="#about"> ABOUT</a>
+        <a href="#contact"> CONTACT</a>
+        <a href="#project"> PROJECTS</a>
     </nav>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <header id="home" class="space">
+        <img src="/media/mariam.jpg" id="inform">
+        <h1>AFOLABI, Opeyemi Mariam</h1>
+        <h3>Front-end Web Developer</h3>
+    </header>
+    
     <section>
       
       <div id="about" class="space">
@@ -67,7 +66,7 @@
                 NAME:<input type="text" class="bala" placeholder="Name"><br>
                 EMAIL: <input type= "email" class="bala" required placeholder="Enter an Email"><br>
                 MESSAGE:<textarea name= "message" input type= "text" ></textarea><br> 
-                <input type= "Submit" class="bala" value="Contact">
+                <input type= "Submit"  id= "submit-me" class="bala" value="Contact">
         </form>
       </div>
       <div id="project" class="space">
