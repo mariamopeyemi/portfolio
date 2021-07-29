@@ -264,26 +264,26 @@ footer{
         width: 100px;
         height: auto;
 }
-}
+/* } */
 
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) { */
     #project-box{
         display: block;
         height: fit-content;
     }
     #project img{
-        width: fit-content;
+        width: 200px;
         margin: auto;
     }
 
     /* ******grid moment******* */
-    .grid-container {
+    /* .grid-container {
         display: inline-block;
         padding: 10px;
         margin: auto;
         width: fit-content;
-      }
+      } */
     /* navigation menu */
 .topnav {
     overflow: hidden;
