@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <link rel="icon" type="icon" sizes="28/32"  class="fab fa-connectdevelop"></i>
+    <title >Portfolio</title>
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -25,46 +26,70 @@
       </a>
     </div>
     <header id="home" class="space">
-        <img src="/media/mariam.jpg" id="inform">
-        <h1>AFOLABI, Opeyemi Mariam</h1>
-        <h3>Front-end Web Developer</h3>
-        <h3>Front-end Web Developer</h3>
-        <h3>Front-end Web Developer</h3>
+        <img src="/media/mariam.jpg">
+        <div >
+          <h1>AFOLABI, Opeyemi Mariam</h1>
+          <h3>Front-end Web Developer</h3>
+          <input type="button" class="project-linky" value="PROJECT" id="project-view">
+          <input type="button" class="project-linky" value="BLOG" id="blog-view">
+        </div>
     </header>
     <input type="button" id="top-stick" value="TOP"><a href="#home"></a>
     <section>
       <div id="about" class="space">
         <h1 class="movey">ABOUT ME</h1>
         
-        <h3>
-          A second class upper graduate of Microbiology from the University of
-          Lagos, Nigeria. I am an aspiring full stack web developer who is self
-          taught and currently focus on Front-end technology. Presently, my skills includes:
-        </h3>
-        <ul>
-          <li>HTML and CSS</li>
-          <li>Vanilla JavaScript</li>
-          <li>Version Control</li>
-          <li>Content Creation</li>
-          <li>Microsoft Office 365</li>
-          <li>Microsoft office package; Powerpoint, Word, Excel, Teams</li>
-          <li>Social media savvy</li>
-          <li>Customer support and service</li>
-          <li>Inventory management</li>
-          <li>Production management</li>
-          <li>
-            Afolabi Opeyemi Mariam CV <a href="/Media/Opeyemi Mariam Afolabi CV (1).pdf" 
-            target="_blank" rel="noreferrer noopener">Click to view</a>
-          </li>
-        </ul>
-        <div>
+        <div class="about-me">
+          <h3>
+            A second class upper graduate of Microbiology from the University of
+            Lagos, Nigeria. I am an aspiring full stack web developer who is self
+            taught and currently focus on Front-end technology. Presently, my skills includes:
+          </h3>
+          <ul class="skill-list">
+            <li>HTML and CSS</li>
+            <li>Vanilla JavaScript</li>
+            <li>Version Control</li>
+            <li>Content Creation</li>
+            <li>Microsoft Office 365</li>
+            <li>Microsoft office package; Powerpoint, Word, Excel, Teams</li>
+            <li>Social media savvy</li>
+            <li>Customer support and service</li>
+            <li>Inventory management</li>
+            <li>Production management</li>
+            <li>
+              Afolabi Opeyemi Mariam CV <a href="/Media/Opeyemi Mariam Afolabi CV (1).pdf" 
+              target="_blank" rel="noreferrer noopener">Click to view</a>
+            </li>
+          </ul>
+        </div>
+        <div class="quality-container">
           <h1 class="movey">QUALITIES</h1>
-          <P>TEAM PLAYER</P>
-          <i class="fas fa-people-carry"></i>
+          <div class="qualities">
+            <i class="fas fa-people-carry"></i>
+            <h3>TEAM PLAYER</h3>
+            <h5>Having worked as part of a team severly, I can confidently say I function well as part of a team of any size</h5>
+          </div>
+          <div class="qualities">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>TEACHABLE</h3>
+            <h5>I am always ready to learn and take up challeges with a goal of becoming a better developer with each task</h5>
+          </div>
+          <div class="qualities">
+            <i class="fas fa-code"></i>
+            <h3>DATA</h3>
+            <h5>With an understanding of Data structures and Algorithm, 
+              I am able to write clean and efficient code with scalability always in mind.</h5>
+          </div>
+          <div class="qualities">
+            <i class="fas fa-comments"></i>
+            <h3>COMMUNICATION</h3>
+            <h5>I am a great communicator with excellent reporting skills</h5>
+          </div>
         </div>
       </div>
       <div id="contact" class="space">
         <h1 class="movey">CONTACT ME</h1>
+        <!-- <h1>CONTACT ME</h1> -->
         <p>
           Please fill this form to reach out to me
         </p>
@@ -72,7 +97,7 @@
                 NAME:<input type="text" class="bala" placeholder="Name"><br>
                 EMAIL: <input type= "email" class="bala" required placeholder="Enter an Email"><br>
                 MESSAGE:<textarea name= "message" input type= "text" ></textarea><br> 
-                <input type= "Submit"  id= "submit-me" class="bala" value="Contact">
+                <input type= "Submit"  id= "submit-me" class="bala" value="SUBMIT">
         </form>
       </div>
       <div id="moments">
@@ -80,21 +105,20 @@
         <div class="grid-container">
           <img src="/moments/M1.jpeg" class="m" >
           <img src="/moments/M2.jpeg" class="m" >
-          <img src="/moments/M3.jpeg" class="m" class="span">
+          <img src="/moments/M3.jpeg" class="m" >
           <img src="/moments/M4.jpeg" class="m" >
           <img src="/moments/M5.jpeg" class="m" >
-          <img src="/moments/M6.jpeg" class="m" class="span">
+          <img src="/moments/M6.jpeg" class="m" >
           <img src="/moments/M7.jpeg" class="m" >
-          <img src="/moments/M8.jpeg" class="m" class="span">
-          <img src="/moments/M9.jpeg" class="m" >
+          <img src="/moments/M8.jpeg" class="m" >
           <img src="/moments/M10.jpeg" class="m" >
-          <img src="/moments/M11.jpeg" class="m" class="span">
+          <img src="/moments/M11.jpeg" class="m" >
           <img src="/moments/M12.jpeg" class="m" >
           <img src="/moments/M13.jpeg" class="m" >
           <img src="/moments/M14.jpeg" class="m" >
           <img src="/moments/M15.jpeg" class="m" >
           <img src="/moments/M16.jpeg" class="m" >
-          <!-- <img src="/moments/M17.jpeg" class="m" > -->
+          <img src="/moments/M17.jpeg" class="m" >
           
         </div>
       </div>
@@ -103,9 +127,21 @@
         <h1 class="movey">PROJECTS</h1>
         <p>I am a Blogger blogger lol</p>
         <div id="project-box">
-          <a href="https://opeyemi-fylo-project.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="/media/fylo.jpeg"></a>
-          <a href="https://opeyemi-javascriptcounter-project.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="/media/counter.jpeg"></a>
-          <a href="https://mariam-vancouver-cleaning.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="/media/vancouver.jpeg"></a>
+          <div class="projectbox">
+            <img src="/media/fylo.jpeg">
+            <a href="https://opeyemi-fylo-project.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <input type="button" class="adjust"></a> 
+          </div>
+          <div class="projectbox">
+            <img src="/media/counter.jpeg">
+            <a href="https://opeyemi-javascriptcounter-project.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <input type="button" class="adjust"></a>
+          </div>
+          <div class="projectbox">
+            <img src="/media/vancouver.jpeg">
+            <a href="https://mariam-vancouver-cleaning.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <input type="button" class="adjust"></a>
+          </div>  
         </div>
 
         <div id="linky">
